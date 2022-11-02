@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&family=Lora:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:  none;
+
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(270.12deg, #A4484B 0.08%, #A54B4E 0.09%, #B16265 12.51%, #FFFFFF 81.77%), radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.0798) 0%, rgba(0, 0, 0, 0) 100%), #FFFFFF;
+    border: 1px solid rgba(237, 206, 207, 0.8);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    padding: 24px;
+
+}
+
+.cabecalho-imagem{
+    height: 72px;
+    border-radius: 50%;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 100px;
+}
+
+.cabecalho-menu-item{ 
+    font-family: 'Frank Ruhl Libre', serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    border-top: 0.4px solid #FFFFFF;
+    margin-bottom: 48px;
+
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.conteudo-principal-escrito:hover{
+    
+    box-shadow: 2px 2px 4px 4px #A4484B;
+
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family:'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    font-size: 66px;
+    color: #A4484B;
+    padding-left: 18px;
+
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Lora', serif;   
+    font-weight: 400;
+    font-size: 24px;
+    color: #B16265;
+    padding-left: 18px;
+    padding-right: 20px;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: #A4484B;
+    color: #FFFFFF;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.349);
+    border-radius: 20px;
+    margin-left: 18px;
+    margin-bottom: 18px;   
+}
+.conteudo-principal-escrito-botao:hover{
+    background-color: #632d2faf;
+}
+
+.conteudo-principal-imagem{
+    height: 430px;
+    border-radius: 50%;
+    margin-top: 10px;
+    box-shadow: 8px 2px 8px 2px  rgba(255, 255, 255, 0.349);
+    margin-right: 18px;
+
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+
+
+}
+
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFFFFF;
+
+}
+
+.rodape-imagem {
+    height: 60px;
+    display:block;
+    margin: 0 auto;
+
+}
+
